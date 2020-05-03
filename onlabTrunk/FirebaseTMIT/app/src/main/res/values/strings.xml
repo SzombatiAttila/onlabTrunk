@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">FirebaseTMIT</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="facebook_application_id" translatable="false">590776171676177</string>
+    <string name="facebook_login_protocol_scheme" translatable="false">fb590776171676177</string>
+    <string name="go_to_the_menu">Go to the menu</string>
+    <string name="check_your_bank_activities">Check_your_bank_activities</string>
+    <string name="add_new_contents">Add new contents</string>
+    <string name="add">Add</string>
+    <string name="show_contacts">Show contacts</string>
+    <string name="contacts">Contacts</string>
+    <string name="map">Map</string>
+    <string name="search_places_on_map">Search places on map</string>
+    <string name="activities">Activities</string>
+    <string name="show_activities">Show activities</string>
+    <string name="places">Places</string>
+    <string name="show_places">Show places</string>
+    <string name="get_the_direction">Get the direction</string>
+    <string name="title_activity_maps_direction">Map</string>
+    <string name="add_contacts">Add contacts</string>
+    <string name="add_places">Add places</string>
+    <string name="add_activity">Add activity</string>
+    <string name="firstname">Firstname</string>
+    <string name="lastname">Lastname</string>
+    <string name="email">Email</string>
+    <string name="phone_number">Phone number</string>
+    <string name="location">Location</string>
+    <string name="save">Save</string>
+    <string name="log_out">Log OUT</string>
+    <string name="log_out_from_the_application">Log out from the application</string>
+    <string name="load">Load</string>
+    <string name="priority">Priority</string>
+    <string name="name">Name</string>
+    <string name="closing_time">Closing time</string>
+    <string name="place_type">Place type</string>
+    <string name="activity_time">Activity time</string>
+    <string name="activity_type">Activity type</string>
+    <string name="list_of_people">List of people</string>
+    <string name="free_or_not">Free or not</string>
+    <string name="is_available">Is available</string>
+</resources>
