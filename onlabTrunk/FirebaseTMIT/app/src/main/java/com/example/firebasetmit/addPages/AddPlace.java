@@ -12,7 +12,6 @@ import com.example.firebasetmit.FirebaseObject.ActivityObject;
 import com.example.firebasetmit.R;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
-import com.google.firebase.firestore.GeoPoint;
 
 public class AddPlace extends AppCompatActivity {
 
@@ -24,12 +23,6 @@ public class AddPlace extends AppCompatActivity {
 
     private DatabaseReference mRootRef = FirebaseDatabase.getInstance()
             .getReference("Activities/Places/Place");
-
-    //private DatabaseReference mChildReferenceLocation = mRootRef.child("Activities/Places/Place/location");
-    //private DatabaseReference mChildReferenceName = mRootRef.child("Activities/Places/Place/placeName");
-    //private DatabaseReference mChildReferencePriority = mRootRef.child("Activities/Places/Place/priority");
-    //private DatabaseReference mChildReferenceType = mRootRef.child("Activities/Places/Place/type");
-    //private DatabaseReference mChildReferenceTime = mRootRef.child("Activities/Places/Place/time");
 
     private ActivityObject mActivityObj;
 

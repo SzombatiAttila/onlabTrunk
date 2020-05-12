@@ -48,7 +48,6 @@ import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.Circle;
 import com.google.android.gms.maps.model.CircleOptions;
 import com.google.android.gms.maps.model.LatLng;
-import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
 import com.google.android.gms.maps.model.Polyline;
 import com.google.android.gms.maps.model.PolylineOptions;
@@ -57,13 +56,12 @@ import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
-import com.google.firebase.firestore.auth.User;
 
 import java.util.Objects;
 
 
 public class MapsDirection extends AppCompatActivity
-        implements TaskLoadedCallback, GeoTask.Geo, OnMapReadyCallback, GoogleMap.OnMarkerClickListener {
+        implements TaskLoadedCallback, GeoTask.Geo, OnMapReadyCallback {
 
     private MarkerOptions place2;
     private Polyline currentPolyline;
@@ -202,8 +200,6 @@ public class MapsDirection extends AppCompatActivity
 
 
     }
-
-
 
     private void createUrlWithGpsPositions(LatLng pos1, LatLng pos2){
         String result11 = String.valueOf(pos1.latitude);
@@ -540,10 +536,6 @@ public class MapsDirection extends AppCompatActivity
         }
     }
 
-    @Override
-    public boolean onMarkerClick(Marker marker) {
-        return false;
-    }
 }
 
 
